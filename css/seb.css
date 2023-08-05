@@ -1,0 +1,33 @@
+form {
+  /* background-color: aqua; */
+  margin-top: 200px;
+}
+
+
+
+
+.user {
+  border: 3px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 4px;
+
+  /* outline: none; */
+}
+
+input {
+  width: 500px;
+  height: 40px;
+}
+
+.user:focus {
+  border-color: #23edda;
+  border-style: solid;
+  outline: 1px;
+  outline-color: black;
+}
+
+#textarea {
+  height: auto;
+  width: 500px;
+}

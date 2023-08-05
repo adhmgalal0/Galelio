@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+.bold {
+  font-size: xx-large;
+  font-weight: 900;
+  text-align: left;
+  font-size: 2rem;
+}
+
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.08), 0 4px 12px rgba(255, 255, 255, 0.08);
+}
+
+.nav {
+  margin-left: auto;
+  color: white;
+}
+
+img {
+  width: 245px;
+  height: 60px;
+  /* filter: brightness(0%); */
+}
+
+
+.parent ul {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.parent li {
+  text-decoration: none;
+  margin: 5px 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.parent li:hover {
+  color: aqua;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: aqua;
+}
+
+.nightb {
+  /* display: flex; */
+  border-radius: 50px;
+  width: 90px;
+  height: 45px;
+  top: 0;
+  font-weight: 600;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.nightb:hover {
+  background-color: #000000;
+  color: #3f6ab9;
+}
+
+.paragraphs {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Join {
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.Join:hover {
+  background-color: #000000;
+  color: blue;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.para2 {
+  display: block;
+  text-align: left;
+  float: left;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.boxs4 {
+  float: right;
+  width: 700px;
+  height: 400px;
+  overflow-wrap: normal;
+  flex-wrap: wrap;
+}
+
+.softbox {
+  flex-wrap: wrap;
+  margin-right: 100px;
+  float: right;
+  display: flex;
+  width: 50%;
+  height: 600px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.08), 0 4px 12px rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.p2 {
+  margin: 10%;
+  margin-bottom: 400px;
+}
+
+.stroke-primary {
+  stroke: #53f;
+}
+
+svg {
+  float: left;
+  margin-right: 10px;
+  margin-left: 38px;
+}
+
+.small {
+  text-align: left;
+  display: block;
+  color: #53f;
+}
+
+.softbox {
+  width: 280px;
+  height: 120px;
+  margin: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(255, 255, 255, 0.172);
+}
+
+.softbox:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.524), 0 4px 12px rgba(0, 0, 0, 0.443);
+}
+
+.text-left {
+  margin-top: 40px;
+}
+
+.m-0 {
+  margin-top: -38px;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+.form {
+  width: 500px;
+  margin-left: 20px;
+}
+
+.teet {
+  border-radius: 10px;
+  border-style: solid;
+  border: #53f;
+  border: 10px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.524), 0 4px 12px rgba(255, 255, 255, 0.443);
+  width: 30%;
+  height: 600px;
+  margin-left: 100px;
+}
+
+.form-groub,
+.labels {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+
+.teet,
+.form-groub,
+.labels {
+  opacity: 0;
+  animation: appear 1s forwards;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.full {
+  display: inline-flex;
+  width: 100%;
+}
+
+.p9 {
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 200px;
+  right: 0px;
+  width: 30%;
+  height: fit-content;
+  float: right;
+}
+
+/* sep */
+.user {
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(3, 2, 2);
+  border-radius: 4px;
+  overflow-wrap: break-word;
+}
+
+input {
+  width: 500px;
+  height: 40px;
+}
+
+.user:focus {
+  border-color: #53f;
+  border-style: solid;
+  outline: 1px;
+  outline-color: rgb(255, 255, 255);
+}
+
+#textarea {
+  height: auto;
+  width: 500px;
+}
+
+/*sep*/
+.site-footer {
+  font-size: 0.9em;
+  background-color: transparent;
+  width: 100%;
+  height: 0;
+  margin-top: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.section,
+section {
+  position: absolute;
+}
+
+.bg-contrast {
+  background-color: #000000 !important;
+}
+
+footer,
+nav {
+  display: block;
+  background-color: transparent;
+}
+
+.logo {
+  position: absolute;
+  bottom: 5px;
+  padding: 0px;
+  align-items: center;
+  align-content: center;
+}
+
+.text-secondary {
+  float: right;
+  margin-right: 2%;
+  display: flex;
+  color: rgba(255, 255, 255, 0.554);
+}
+
+footer nav {
+  float: left;
+  bottom: 0;
+  display: flex;
+  margin-left: 300px;
+}
+
+.nav-item {
+  margin: 0 10px;
+  bottom: 0px;
+}
